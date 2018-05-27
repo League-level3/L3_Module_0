@@ -1,10 +1,14 @@
 package IntroToStacks;
 
+import java.util.Stack;
+
 public class IntroToStack {
 	public static void main(String[] args) {
+		IntroToStack a = new IntroToStack();
+		
 		//1. Create a Stack of Doubles
 		//   Don't forget to import the Stack class
-		
+		Stack<Double> values;
 		//2. Use a loop to push 100 random doubles between 0 and 100 to the Stack.
 		
 		//3. Ask the user to enter in two numbers between 0 and 100, inclusive. 
@@ -26,4 +30,6 @@ public class IntroToStack {
 		//   66.47984807
 		//   74.12121224
 	}
+
 }
+
